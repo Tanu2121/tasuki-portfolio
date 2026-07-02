@@ -5,7 +5,7 @@ type SkillCardProps ={
 
 export const SkillCard = ({title, description}: SkillCardProps) => {
   return (
-    <div className='p-6 border border-neutral-200 rounded-2xl shadow-sm'>
+    <div className='p-6 border border-neutral-200 rounded-2xl shadow-sm transition hover:-translate-y-1 hover:shadow-md'>
         <h3 className='text-xl font-bold text-sky-200'>{title}</h3>
         <p className='mt-3 text-sm leading-6 text-neutral-300'>{description}</p>
     </div>
