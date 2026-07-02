@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 
 
+
 type SkillCardProps ={
   title: String;
   description: String;
