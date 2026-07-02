@@ -36,6 +36,7 @@ const works = [
 export default function Home() {
   return (
     <MainLayout>
+      <div className="bg-neutral-900">
       <div className='mx-auto w-full flex max-w-5xl flex-col gap-16 px-6 py-12'>
         <section className='rounded-2xl bg-neutral-600 px-8 py-16 text-white'>
           <p className='text-sm font-bold text-sky-300'>Portfolio</p>
@@ -56,7 +57,7 @@ export default function Home() {
           </div>
         </section>
         <section id='works'>
-          <h2 className='text-2xl font-bold text-neutral-900'>Works</h2>
+          <h2 className='text-2xl font-bold text-white'>Works</h2>
            <div className='mt-6 grid gap-4 md:grid-cols-2'>
             {works.map((work) => (
               <WorkCard
@@ -68,6 +69,7 @@ export default function Home() {
             ))}
           </div>
         </section>
+      </div>
       </div>
     </MainLayout>
   );
