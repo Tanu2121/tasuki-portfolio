@@ -1,3 +1,12 @@
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
+
 type SkillCardProps ={
   title: String;
   description: String;
